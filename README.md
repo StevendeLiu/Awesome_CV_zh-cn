@@ -7,8 +7,9 @@
 ## 捐赠
 
 请帮助这个项目继续下去!欢迎捐款，并将用于进一步发展这个项目。
-|||
-|---|---|
+
+| 微信收款 | 支付宝收款 |
+|:---:|:---:|
 |![](https://gitee.com/e13/pic-bed/raw/master/img/IMG_2156.JPG)|![](https://gitee.com/e13/pic-bed/raw/master/img/IMG_2157.JPG)|
 
 **感谢您的支持!**
@@ -17,15 +18,15 @@
 
 #### Résumé（简历）
 
-You can see [PDF](https://gitee.com/e13/Awesome-CV/blob/master/examples/resume.pdf)
+你可以预览[PDF](https://gitee.com/e13/Awesome-CV/blob/master/examples/resume.pdf)
 
 | Page. 1 | Page. 2 |
 |:---:|:---:|
-| [![Résumé](https://gitee.com/e13/Awesome-CV/raw/master/examples/resume-0.png)](https://gitee.com/e13/Awesome-CV/blob/master/examples/resume.pdf)  | [![Résumé](https://gitee.com/e13/Awesome-CV/raw/master/examples/resume-1.png)](https://gitee.com/e13/Awesome-CV/blob/master/examples/resume.pdf) |
+|![](https://gitee.com/e13/pic-bed/raw/master/img/resume-0.png)|![](https://gitee.com/e13/pic-bed/raw/master/img/resume-1.png)|
 
 #### Cover Letter（求职信）
 
-You can see [PDF](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf)
+你可以预览[PDF](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf)
 
 | Without Sections | With Sections |
 |:---:|:---:|
