@@ -34,7 +34,6 @@
 
 **Awesome CV** is LaTeX template for a **CV(Curriculum Vitae)**, **Résumé** or **Cover Letter** inspired by [Fancy CV](https://www.sharelatex.com/templates/cv-or-resume/fancy-cv). It is easy to customize your own template, especially since it is really written by a clean, semantic markup.
 
-
 ## Donate
 
 Please help keep this project alive! Donations are welcome and will go towards further development of this project.
@@ -65,14 +64,12 @@ You can see [PDF](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/e
 |:---:|:---:|
 | [![Cover Letter(Traditional)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter-0.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter-1.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf) |
 
-
 ## Quick Start
 
 * [**Edit Résumé on OverLeaf.com**](https://www.overleaf.com/latex/templates/awesome-cv/tvmzpvdjfqxp)
 * [**Edit Cover Letter on OverLeaf.com**](https://www.overleaf.com/latex/templates/awesome-cv-cover-letter/pfzzjspkthbk)
 
 **_Note:_ Above services do not guarantee up-to-date source code of Awesome CV**
-
 
 ## How to Use
 
@@ -86,11 +83,10 @@ You can [install TeX from upstream](http://tex.stackexchange.com/q/1092) (recomm
 At a command prompt, run
 
 ```bash
-$ xelatex {your-cv}.tex
+xelatex {your-cv}.tex
 ```
 
 This should result in the creation of ``{your-cv}.pdf``
-
 
 ## Credit
 
@@ -102,7 +98,6 @@ This should result in the creation of ``{your-cv}.pdf``
 
 [**Source Sans Pro**](https://github.com/adobe-fonts/source-sans-pro) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.
 
-
 ## Contact
 
 You are free to take my `.tex` file and modify it to create your own resume. Please don't use my resume for anything else without my permission, though!
@@ -110,7 +105,6 @@ You are free to take my `.tex` file and modify it to create your own resume. Ple
 If you have any questions, feel free to join me at [`#posquit0` on Freenode](irc://irc.freenode.net/posquit0) and ask away. Click [here](https://kiwiirc.com/client/irc.freenode.net/posquit0) to connect.
 
 Good luck!
-
 
 ## See Also
 
