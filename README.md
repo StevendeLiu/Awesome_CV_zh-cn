@@ -7,18 +7,15 @@
 ## 捐赠
 
 请帮助这个项目继续下去!欢迎捐款，并将用于进一步发展这个项目。
-
-    PayPal: paypal.me/posquit0
-    BTC: 1Je3DxJVM2a9nTVPNo55SfQwpmxA6N2KKb
-    BCH: 1Mg1wG7PwHGrHYSWS67TsGSjo5GHEVbF16
-    ETH: 0x77ED9B4659F80205E9B9C9FB1E26EDB9904AFCC7
-    QTUM: QZT7D6m3QtTTqp7s4ZWAwLtGDsoHMMaM8E
+|||
+|---|---|
+|![](https://gitee.com/e13/pic-bed/raw/master/img/IMG_2156.JPG)|![](https://gitee.com/e13/pic-bed/raw/master/img/IMG_2157.JPG)|
 
 **感谢您的支持!**
 
 ## 预览
 
-#### Résumé
+#### Résumé（简历）
 
 You can see [PDF](https://gitee.com/e13/Awesome-CV/blob/master/examples/resume.pdf)
 
@@ -26,7 +23,7 @@ You can see [PDF](https://gitee.com/e13/Awesome-CV/blob/master/examples/resume.p
 |:---:|:---:|
 | [![Résumé](https://gitee.com/e13/Awesome-CV/raw/master/examples/resume-0.png)](https://gitee.com/e13/Awesome-CV/blob/master/examples/resume.pdf)  | [![Résumé](https://gitee.com/e13/Awesome-CV/raw/master/examples/resume-1.png)](https://gitee.com/e13/Awesome-CV/blob/master/examples/resume.pdf) |
 
-#### Cover Letter
+#### Cover Letter（求职信）
 
 You can see [PDF](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf)
 
