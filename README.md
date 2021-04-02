@@ -1,12 +1,16 @@
-# LaTeX简历模板
+# 1. LaTeX简历模板
 
-## 什么是 Awesome CV?
+## 1.1. 什么是 Awesome CV?
 
 **Awesome CV** 是 LaTeX 模板，包含**CV(Curriculum Vitae)**, **Résumé** 和 **Cover Letter**。灵感来自 [Awesome-CV](https://github.com/posquit0/Awesome-CV)。自定义自己的模板很容易，特别是因为它实际上是由干净的语义标记编写的。
 
-## 捐赠
+## 1.2. 捐赠
 
 请帮助这个项目继续下去!欢迎捐款，并将用于进一步发展这个项目。
+
+    BTC: 3GJhNDpAHVrmqcMpHgkjM1xvCxB7z8e8AJ
+    BCH: bitcoincash:qr9n6refu8aqxnqjvfnl6x3vg96tm293cqukx4j52j
+    ETH: 0x9da79cF7F2E177Ca01401c5aBa2eC2D9051C7679
 
 | 微信收款 | 支付宝收款 |
 |:---:|:---:|
@@ -14,9 +18,9 @@
 
 **感谢您的支持!**
 
-## 预览
+## 1.3. 预览
 
-#### Résumé（简历）
+### 1.3.1. Résumé（简历）
 
 你可以预览[PDF](https://gitee.com/e13/Awesome-CV/blob/master/examples/resume.pdf)
 
@@ -24,56 +28,57 @@
 |:---:|:---:|
 |![](https://gitee.com/e13/pic-bed/raw/master/img/resume-0.png)|![](https://gitee.com/e13/pic-bed/raw/master/img/resume-1.png)|
 
-#### Cover Letter（求职信）
+### 1.3.2. Cover Letter（求职信）
 
-你可以预览[PDF](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf)
+你可以预览[PDF](https://gitee.com/e13/Awesome-CV/blob/master/examples/coverletter.pdf)
 
 | Without Sections | With Sections |
 |:---:|:---:|
-| [![Cover Letter(Traditional)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter-0.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter-1.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf) |
+| ![](https://gitee.com/e13/pic-bed/raw/master/img/coverletter-0.png) |![](https://gitee.com/e13/pic-bed/raw/master/img/coverletter-1.png)|
 
-## Quick Start
+## 1.4. 快速开始（暂不支持，链接为原版英文模板）
 
-* [**Edit Résumé on OverLeaf.com**](https://www.overleaf.com/latex/templates/awesome-cv/tvmzpvdjfqxp)
-* [**Edit Cover Letter on OverLeaf.com**](https://www.overleaf.com/latex/templates/awesome-cv-cover-letter/pfzzjspkthbk)
+- [**Edit Résumé on OverLeaf.com**](https://www.overleaf.com/latex/templates/awesome-cv/tvmzpvdjfqxp)
+- [**Edit Cover Letter on OverLeaf.com**](https://www.overleaf.com/latex/templates/awesome-cv-cover-letter/pfzzjspkthbk)
 
-**_Note:_ Above services do not guarantee up-to-date source code of Awesome CV**
+**_请注意:_ 以上服务不保证令人敬畏的CV的最新源代码**
 
-## How to Use
+## 1.5. 如何使用
 
-#### Requirements
+### 1.5.1. 依赖环境
 
-A full TeX distribution is assumed.  [Various distributions for different operating systems (Windows, Mac, \*nix) are available](http://tex.stackexchange.com/q/55437) but TeX Live is recommended.
-You can [install TeX from upstream](http://tex.stackexchange.com/q/1092) (recommended; most up-to-date) or use `sudo apt-get install texlive-full` if you really want that.  (It's generally a few years behind.)
+假设为全TeX分布.  [[针对不同操作系统的各种发行版 (Windows, Mac, \*nix) 都是可用的](http://tex.stackexchange.com/q/55437) 但建议使用TeX Live.
 
-#### Usage
+你可以 [在upstream安装Tex](http://tex.stackexchange.com/q/1092) (推荐；最新) 或者使用 `sudo apt-get install texlive-full` 如果你真的想要的话.  (一般来说要晚几年.)
 
-At a command prompt, run
+### 1.5.2. 用法
+
+在命令提示下，运行
 
 ```bash
 xelatex {your-cv}.tex
 ```
 
-This should result in the creation of ``{your-cv}.pdf``
+这将生成 ``{your-cv}.pdf``
 
-## Credit
+## 1.6. 信用
 
-[**LaTeX**](http://www.latex-project.org) is a fantastic typesetting program that a lot of people use these days, especially the math and computer science people in academia.
+[**LaTeX**](http://www.latex-project.org) 是一个很棒的排版程序，现在很多人都在用，尤其是数学和计算机科学界的学者.
 
-[**LaTeX FontAwesome**](https://github.com/furl/latex-fontawesome) is bindings for FontAwesome icons to be used in XeLaTeX.
+[**LaTeX FontAwesome**](https://github.com/furl/latex-fontawesome) 是Xeletex中使用的FontAwesome图标的绑定.
 
-[**Roboto**](https://github.com/google/roboto) is the default font on Android and ChromeOS, and the recommended font for Google’s visual language, Material Design.
+[**Roboto**](https://github.com/google/roboto) 是Android和ChromeOS上的默认字体，也是谷歌视觉语言Material Design的推荐字体.
 
-[**Source Sans Pro**](https://github.com/adobe-fonts/source-sans-pro) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.
+[**Source Sans Pro**](https://github.com/adobe-fonts/source-sans-pro) 是一组OpenType字体，设计用于用户界面（UI）环境.
 
-## Contact
+## 1.7. 联系
 
-You are free to take my `.tex` file and modify it to create your own resume. Please don't use my resume for anything else without my permission, though!
+你可以随意使用我的`.tex`文件并修改它来创建你自己的简历。不过，没有我的允许，请不要把我的简历用于其他任何事情!
 
-If you have any questions, feel free to join me at [`#posquit0` on Freenode](irc://irc.freenode.net/posquit0) and ask away. Click [here](https://kiwiirc.com/client/irc.freenode.net/posquit0) to connect.
+如果您有任何问题，请随时与我联系去问吧. 点击 [here](https://kiwiirc.com/client/irc.freenode.net/posquit0) 可以联系原作者.
 
-Good luck!
+祝你好运!
 
-## See Also
+## 1.8. 另请参见
 
-* [Awesome Identity](https://github.com/posquit0/hugo-awesome-identity) - A single-page Hugo theme to introduce yourself.
+- [Awesome Identity](https://github.com/posquit0/hugo-awesome-identity) - 单页雨果主题自我介绍
