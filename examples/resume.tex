@@ -1,63 +1,49 @@
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
-% Awesome CV LaTeX Template for CV/Resume
-%
-% This template has been downloaded from:
-% https://github.com/posquit0/Awesome-CV
-%
-% Author:
-% Claud D. Park <posquit0.bj@gmail.com>
-% http://www.posquit0.com
-%
-% Template license:
-% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
-%
+%----------------------------------------------------------------
+% 配置
+%----------------------------------------------------------------
+% A4纸张大小默认情况下，'letterpaper'使用信纸
+\documentclass[11pt, a4paper,AutoFakeBold]{awesome-cv}
 
-
-%-------------------------------------------------------------------------------
-% CONFIGURATIONS
-%-------------------------------------------------------------------------------
-% A4 paper size by default, use 'letterpaper' for US letter
-\documentclass[11pt, a4paper]{awesome-cv}
-
-% Configure page margins with geometry
+% 使用geometry配置页边距
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 
-% Specify the location of the included fonts
+% 指定包含字体的位置
 \fontdir[fonts/]
 
-% Color for highlights
+% 高光颜色
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
 \colorlet{awesome}{awesome-red}
-% Uncomment if you would like to specify your own color
+% 如果要指定自己的颜色，请取消注释
 % \definecolor{awesome}{HTML}{CA63A8}
 
-% Colors for text
-% Uncomment if you would like to specify your own color
+% 文本的颜色
+% 如果要指定自己的颜色，请取消注释
 % \definecolor{darktext}{HTML}{414141}
 % \definecolor{text}{HTML}{333333}
 % \definecolor{graytext}{HTML}{5D5D5D}
 % \definecolor{lighttext}{HTML}{999999}
 
-% Set false if you don't want to highlight section with awesome color
+% 如果您不想突出显示具有令人敬畏的颜色的部分，请设置为false
 \setbool{acvSectionColorHighlight}{true}
 
-% If you would like to change the social information separator from a pipe (|) to something else
+% 如果要将社交信息分隔符从“|”更改为其他内容
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
 
-%-------------------------------------------------------------------------------
-%	PERSONAL INFORMATION
-%	Comment any of the lines below if they are not required
-%-------------------------------------------------------------------------------
-% Available options: circle|rectangle,edge/noedge,left/right
+%----------------------------------------------------------------
+%	个人信息
+%	如果不需要，请注释下面的任何一行
+%----------------------------------------------------------------
+% 可用选项: circle|rectangle,edge/noedge,left/right
 % \photo[rectangle,edge,right]{./examples/profile}
-\name{Byungjin}{Park}
-\position{Software Architect{\enskip\cdotp\enskip}Security Expert}
-\address{42-8, Bangbae-ro 15-gil, Seocho-gu, Seoul, 00681, Rep. of KOREA}
+\name{姓}{名}
+\position{软件架构师{\enskip\cdotp\enskip}安全专家}
+\address{英国伦敦贝克街221号}
 
-\mobile{(+82) 10-9030-1843}
+\mobile{(+86) 166-6666-6666}
 \email{posquit0.bj@gmail.com}
 \homepage{www.posquit0.com}
 \github{posquit0}
@@ -73,10 +59,10 @@
 % \googlescholar{googlescholar-id}{}
 % \extrainfo{extra informations}
 
-\quote{``Be the change that you want to see in the world."}
+\quote{``成为你想在世界上看到的改变。"}
 
 
-%-------------------------------------------------------------------------------
+%----------------------------------------------------------------
 \begin{document}
 
 % Print the header with above personal informations
@@ -87,7 +73,7 @@
 % Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-  {Byungjin Park~~~·~~~Résumé}
+  {姓名~~~·~~~简历}
   {\thepage}
 
 
