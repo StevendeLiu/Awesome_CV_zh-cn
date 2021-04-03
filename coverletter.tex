@@ -63,10 +63,10 @@
 
 
 %----------------------------------------------------------------
-%	LETTER INFORMATION
-%	All of the below lines must be filled out
+%	信件信息
+%	必须填写以下所有行
 %----------------------------------------------------------------
-% The company being applied to
+% 申请的公司
 \recipient
   {公司招聘团队}
   {谷歌公司。\\1600竞技场公园道\\加利福尼亚州山景城94043}
@@ -85,22 +85,22 @@
 %----------------------------------------------------------------
 \begin{document}
 
-% Print the header with above personal informations
-% Give optional argument to change alignment(C: center, L: left, R: right)
+% 打印具有以上个人信息的标题
+% 提供可选参数以更改对齐方式(C: center, L: left, R: right)
 \makecvheader[R]
 
-% Print the footer with 3 arguments(<left>, <center>, <right>)
-% Leave any of these blank if they are not needed
+% 打印带有3个参数的页脚(<left>, <center>, <right>)
+% 如果不需要，请将其中任何一项留空
 \makecvfooter
   {\today}
   {姓名~~~·~~~求职信}
   {}
 
-% Print the title with above letter informations
+% 打印上面有字母信息的标题
 \makelettertitle
 
 %----------------------------------------------------------------
-%	LETTER CONTENT
+%	信件内容
 %----------------------------------------------------------------
 \begin{cvletter}
 
@@ -117,7 +117,7 @@
 
 
 %----------------------------------------------------------------
-% Print the signature and enclosures with above letter informations
+% 打印带有上述信件信息的签名和附件
 \makeletterclosing
 
 \end{document}
