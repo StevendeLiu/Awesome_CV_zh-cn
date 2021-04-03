@@ -1,5 +1,7 @@
 # 1. LaTeX简历模板
 
+本项目是 [Awesome-CV](https://github.com/posquit0/Awesome-CV)的译版，基本工作都已由原作者完成，但是缺乏对中文的支持。所以修改了少量代码后让此项目完全支持中文编译，字体选用不涉及版权问题的方正字体。**项目中无关紧要的部分都是机翻的，如有语法错误请大家忽略**
+
 ## 1.1. 什么是 Awesome CV?
 
 **Awesome CV** 是 LaTeX 模板，包含**CV(Curriculum Vitae)**, **Résumé** 和 **Cover Letter**。灵感来自 [Awesome-CV](https://github.com/posquit0/Awesome-CV)。自定义自己的模板很容易，特别是因为它实际上是由干净的语义标记编写的。
