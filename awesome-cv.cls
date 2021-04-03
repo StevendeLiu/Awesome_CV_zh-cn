@@ -18,20 +18,20 @@
 %
 
 
-%----------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %                Identification
-%----------------------------------------------------------------
+%-------------------------------------------------------------------------------
 \ProvidesClass{awesome-cv}[2017/02/05 v1.6.1 Awesome Curriculum Vitae Class]
 \NeedsTeXFormat{LaTeX2e}
 
 
-%----------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %                Class options
 %
 % (need to be done before the external package loading, for example because
 % we need \paperwidth, \paperheight and \@ptsize to be defined before loading
 % geometry and fancyhdr)
-%----------------------------------------------------------------
+%-------------------------------------------------------------------------------
 % Options for draft or final
 \DeclareOption{draft}{\setlength\overfullrule{5pt}}
 \DeclareOption{final}{\setlength\overfullrule{0pt}}
@@ -43,9 +43,9 @@
 \LoadClass{article}
 
 
-%----------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %                3rd party packages
-%----------------------------------------------------------------
+%-------------------------------------------------------------------------------
 % Needed to make fixed length table
 \RequirePackage{array}
 % Needed to handle list environment
@@ -75,6 +75,18 @@
 % Needed to use icons from font-awesome
 % (https://github.com/posquit0/latex-fontawesome)
 \RequirePackage{fontawesome}
+\RequirePackage[UTF8,scheme=plain,fontset=none]{ctex}
+\setCJKmainfont[BoldFont={FZHei-B01},ItalicFont={FZKai-Z03}]{FZShuSong-Z01}
+\setCJKsansfont[BoldFont={FZHei-B01},ItalicFont={FZHei-B01}]{FZHei-B01}
+\setCJKmonofont[BoldFont={FZHei-B01},ItalicFont={FZHei-B01}]{FZFangSong-Z02}
+\setCJKfamilyfont{zhsong}{FZShuSong-Z01}
+\setCJKfamilyfont{zhhei}{FZHei-B01}
+\setCJKfamilyfont{zhkai}{FZKai-Z03}
+\setCJKfamilyfont{zhfs}{FZFangSong-Z02}
+\newcommand*{\songti}{\CJKfamily{zhsong}}
+\newcommand*{\heiti}{\CJKfamily{zhhei}}
+\newcommand*{\kaishu}{\CJKfamily{zhkai}}
+\newcommand*{\fangsong}{\CJKfamily{zhfs}}
 \RequirePackage[default,opentype]{sourcesanspro}
 % Needed for the photo ID
 \RequirePackage[skins]{tcolorbox}
@@ -90,17 +102,17 @@
 }
 
 
-%----------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %                Configuration for directory locations
-%----------------------------------------------------------------
+%-------------------------------------------------------------------------------
 % Configure a directory location for fonts(default: 'fonts/')
 \newcommand*{\fontdir}[1][fonts/]{\def\@fontdir{#1}}
 \fontdir
 
 
-%----------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %                Configuration for layout
-%----------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %% Page Layout
 % Configure page margins with geometry
 \geometry{left=2.0cm, top=1.5cm, right=2.0cm, bottom=2.0cm, footskip=.5cm}
@@ -116,9 +128,9 @@
 \pagestyle{fancy}
 
 
-%----------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %                Configuration for colors
-%----------------------------------------------------------------
+%-------------------------------------------------------------------------------
 % Gray-scale colors
 \definecolor{white}{HTML}{FFFFFF}
 \definecolor{black}{HTML}{000000}
@@ -152,40 +164,40 @@
 \setbool{acvSectionColorHighlight}{true}
 
 % Awesome section color
-\def\@sectioncolor#1#2#3{%
-  \ifbool{acvSectionColorHighlight}{{\color{awesome}#1#2#3}}{#1#2#3}%
+\def\@sectioncolor#1#2{%
+  \ifbool{acvSectionColorHighlight}{{\color{awesome}#1#2}}{#1#2}%
 }
 
 
-%----------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %                Configuration for fonts
-%----------------------------------------------------------------
+%-------------------------------------------------------------------------------
 % Set the FontAwesome font to be up-to-date.
-\newfontfamily\FA[Path=\@fontdir]{FontAwesome}
+%\newfontfamily\FA[Path=\@fontdir]{FontAwesome}
 % Set font for header (default is Roboto)
 \newfontfamily\headerfont[
   Path=\@fontdir,
-  UprightFont=*-Regular,
-  ItalicFont=*-Italic,
-  BoldFont=*-Bold,
-  BoldItalicFont=*-BoldItalic,
-]{Roboto}
+  UprightFont=*,
+  ItalicFont=*,
+  BoldFont=*,
+  BoldItalicFont=*,
+]{FZHTK}
 
 \newfontfamily\headerfontlight[
   Path=\@fontdir,
-  UprightFont=*-Thin,
-  ItalicFont=*-ThinItalic,
-  BoldFont=*-Medium,
-  BoldItalicFont=*-MediumItalic,
-]{Roboto}
+  UprightFont=*,
+  ItalicFont=*,
+  BoldFont=*,
+  BoldItalicFont=*,
+]{FZKTK}
 
 \newcommand*{\footerfont}{\sourcesanspro}
 \newcommand*{\bodyfont}{\sourcesanspro}
 \newcommand*{\bodyfontlight}{\sourcesansprolight}
 
-%----------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %                Configuration for styles
-%----------------------------------------------------------------
+%-------------------------------------------------------------------------------
 % Configure styles for each CV elements
 % For fundamental structures
 \newcommand*{\headerfirstnamestyle}[1]{{\fontsize{32pt}{1em}\headerfontlight\color{graytext} #1}}
@@ -234,9 +246,9 @@
 \newcommand*{\letterenclosurestyle}[1]{{\fontsize{10pt}{1em}\bodyfontlight\slshape\color{lighttext} #1}}
 
 
-%----------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %                Commands for personal information
-%----------------------------------------------------------------
+%-------------------------------------------------------------------------------
 % Define photo ID
 % Usage: \photo[circle|rectangle,edge|noedge,left|right]{<path-to-image>}
 \newcommand{\photo}[2][circle,edge,left]{%
@@ -380,9 +392,9 @@
 }
 
 
-%----------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %                Commands for extra
-%----------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %% Define helper macros a user can change easily
 % Header
 \newcommand{\acvHeaderNameDelim}{\space}
@@ -399,9 +411,9 @@
 \newcommand{\acvSectionContentTopSkip}{2.5mm}
 
 
-%----------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %                Commands for utilities
-%----------------------------------------------------------------
+%-------------------------------------------------------------------------------
 % Use to align an element of tabular table
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
@@ -414,9 +426,9 @@
 \newcommand*{\ifempty}[3]{\ifthenelse{\isempty{#1}}{#2}{#3}}
 
 
-%----------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %                Commands for elements of CV structure
-%----------------------------------------------------------------
+%-------------------------------------------------------------------------------
 % Define a header for CV
 % Usage: \makecvheader
 \newcommand*{\makecvheader}[1][C]{%
@@ -682,9 +694,9 @@
 }
 
 
-%----------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %                Commands for elements of Cover Letter
-%----------------------------------------------------------------
+%-------------------------------------------------------------------------------
 % Define an environment for cvletter
 \newenvironment{cvletter}{%
   \lettertextstyle
