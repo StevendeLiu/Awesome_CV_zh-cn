@@ -14,11 +14,11 @@
     BCH: 13yaLkau8mnZb2Hh9hG6rsFNDjDmMzvU7y
     ETH: 0x63B99b2b15d40953430E4eFaa94E264F0429E9BC
 
-| 微信收款 | 支付宝收款 |
-|:---:|:---:|
-|![](https://gitee.com/e13/pic-bed/raw/master/img/IMG_2156.JPG)|![](https://gitee.com/e13/pic-bed/raw/master/img/IMG_2157.JPG)|
-
 **感谢您的支持!**
+
+| 支付宝收款 | 微信收款 |
+|:---:|:---:|
+|![](https://gitee.com/e13/pic-bed/raw/master/img/IMG_2157.JPG)|![](https://gitee.com/e13/pic-bed/raw/master/img/IMG_2156.JPG)|
 
 ## 1.3. 预览
 
