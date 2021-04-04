@@ -36,9 +36,9 @@
 
 | Without Sections | With Sections |
 |:---:|:---:|
-| ![](https://gitee.com/e13/pic-bed/raw/master/img/coverletter-0.png) |![](https://gitee.com/e13/pic-bed/raw/master/img/coverletter-1.png)|
+| ![](https://gitee.com/e13/pic-bed/raw/master/img/coverletter-2.png) |![](https://gitee.com/e13/pic-bed/raw/master/img/coverletter-1.png)|
 
-### CV（履历）
+### 1.3.3. CV（履历）
 
 你可以预览[PDF](https://gitee.com/e13/Awesome-CV/blob/master/cv.pdf)
 
@@ -76,8 +76,6 @@ xelatex {your-cv}.tex
 [**LaTeX**](http://www.latex-project.org) 是一个很棒的排版程序，现在很多人都在用，尤其是数学和计算机科学界的学者.
 
 [**LaTeX FontAwesome**](https://github.com/furl/latex-fontawesome) 是Xeletex中使用的FontAwesome图标的绑定.
-
-[**Roboto**](https://github.com/google/roboto) 是Android和ChromeOS上的默认字体，也是谷歌视觉语言Material Design的推荐字体.
 
 [**Source Sans Pro**](https://github.com/adobe-fonts/source-sans-pro) 是一组OpenType字体，设计用于用户界面（UI）环境.
 
