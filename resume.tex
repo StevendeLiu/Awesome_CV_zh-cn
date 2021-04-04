@@ -1,7 +1,7 @@
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
 %----------------------------------------------------------------
-% CONFIGURATIONS
+% 配置
 %----------------------------------------------------------------
 % A4纸张大小默认情况下，'letterpaper'使用信纸
 \documentclass[11pt, a4paper,AutoFakeBold]{awesome-cv}
@@ -26,7 +26,7 @@
 % \definecolor{graytext}{HTML}{5D5D5D}
 % \definecolor{lighttext}{HTML}{999999}
 
-% Set false if you don't want to highlight section with awesome color
+% 如果您不想突出显示具有令人敬畏的颜色的部分，请设置为false
 \setbool{acvSectionColorHighlight}{true}
 
 % 如果要将社交信息分隔符从“|”更改为其他内容
@@ -34,11 +34,11 @@
 
 
 %----------------------------------------------------------------
-%	如果要将社交信息分隔符从“|”更改为其他内容
+%	个人信息
 %	如果不需要，请注释下面的任何一行
 %----------------------------------------------------------------
 % 可用选项: circle|rectangle,edge/noedge,left/right
-\photo{./examples/profile.png}
+\photo[rectangle,edge,right]{./examples/profile}
 \name{姓}{名}
 \position{软件架构师{\enskip\cdotp\enskip}安全专家}
 \address{英国伦敦贝克街221号}
@@ -65,31 +65,31 @@
 %----------------------------------------------------------------
 \begin{document}
 
-% 打印具有以上个人信息的标题
-% 提供可选参数以更改对齐方式(C: center, L: left, R: right)
-\makecvheader
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[C]
 
-% 打印带有3个参数的页脚(<left>, <center>, <right>)
-% 如果不需要，请将其中任何一项留空
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-  {姓名~~~·~~~履历}
+  {姓名~~~·~~~简历}
   {\thepage}
 
 
-%----------------------------------------------------------------
-%	CV 目录
-%	每个部分是单独导入的，依次打开每个文件修改内容
-%----------------------------------------------------------------
-\input{cv/education.tex}
-\input{cv/skills.tex}
-\input{cv/experience.tex}
-\input{cv/extracurricular.tex}
-\input{cv/honors.tex}
-\input{cv/presentation.tex}
-\input{cv/writing.tex}
-\input{cv/committees.tex}
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+\input{resume/summary.tex}
+\input{resume/experience.tex}
+\input{resume/honors.tex}
+\input{resume/presentation.tex}
+\input{resume/writing.tex}
+\input{resume/committees.tex}
+\input{resume/education.tex}
+\input{resume/extracurricular.tex}
 
 
-%----------------------------------------------------------------
+%-------------------------------------------------------------------------------
 \end{document}

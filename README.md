@@ -24,19 +24,27 @@
 
 ### 1.3.1. Résumé（简历）
 
-你可以预览[PDF](https://gitee.com/e13/Awesome-CV/blob/master/examples/resume.pdf)
+你可以预览[PDF](https://gitee.com/e13/Awesome-CV/blob/master/resume.pdf)
 
 | Page. 1 | Page. 2 |
 |:---:|:---:|
-|![](https://gitee.com/e13/pic-bed/raw/master/img/resume-0.png)|![](https://gitee.com/e13/pic-bed/raw/master/img/resume-1.png)|
+|![](https://gitee.com/e13/pic-bed/raw/master/img/resume-1.png)|![](https://gitee.com/e13/pic-bed/raw/master/img/resume-2.png)|
 
 ### 1.3.2. Cover Letter（求职信）
 
-你可以预览[PDF](https://gitee.com/e13/Awesome-CV/blob/master/examples/coverletter.pdf)
+你可以预览[PDF](https://gitee.com/e13/Awesome-CV/blob/master/coverletter.pdf)
 
 | Without Sections | With Sections |
 |:---:|:---:|
 | ![](https://gitee.com/e13/pic-bed/raw/master/img/coverletter-0.png) |![](https://gitee.com/e13/pic-bed/raw/master/img/coverletter-1.png)|
+
+### CV（履历）
+
+你可以预览[PDF](https://gitee.com/e13/Awesome-CV/blob/master/cv.pdf)
+
+| Page. 1 | Page. 2 |
+|:---:|:---:|
+|![](https://gitee.com/e13/pic-bed/raw/master/img/cv-1.png)|![](https://gitee.com/e13/pic-bed/raw/master/img/cv-2.png)|
 
 ## 1.4. 快速开始（暂不支持，链接为原版英文模板）
 
