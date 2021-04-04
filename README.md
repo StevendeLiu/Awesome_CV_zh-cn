@@ -10,9 +10,9 @@
 
 请帮助这个项目继续下去!欢迎捐款，并将用于进一步发展这个项目。
 
-    BTC: 3GJhNDpAHVrmqcMpHgkjM1xvCxB7z8e8AJ
-    BCH: bitcoincash:qr9n6refu8aqxnqjvfnl6x3vg96tm293cqukx4j52j
-    ETH: 0x9da79cF7F2E177Ca01401c5aBa2eC2D9051C7679
+    BTC: 3Bnx69STcmhpbRL9vHnzfYb54gg9QU1PDB
+    BCH: 13yaLkau8mnZb2Hh9hG6rsFNDjDmMzvU7y
+    ETH: 0x63B99b2b15d40953430E4eFaa94E264F0429E9BC
 
 | 微信收款 | 支付宝收款 |
 |:---:|:---:|
