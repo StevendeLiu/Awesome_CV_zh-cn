@@ -11,7 +11,6 @@
 请帮助这个项目继续下去!欢迎捐款，并将用于进一步发展这个项目。
 
     BTC: 1B38R1HmdkYXTr6gbJATZ72inZYDJejCXN
-    BCH: 1B38R1HmdkYXTr6gbJATZ72inZYDJejCXN
     ETH: 0xf7045c92772910e7dbdf21c3143f7bbc1329df41
     ZIL: zil1muyjg97pcaplfwfrha2txyssycghdqm376pqff
 
