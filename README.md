@@ -13,6 +13,7 @@
     BTC: 1B38R1HmdkYXTr6gbJATZ72inZYDJejCXN
     ETH: 0xf7045c92772910e7dbdf21c3143f7bbc1329df41
     ZIL: zil1muyjg97pcaplfwfrha2txyssycghdqm376pqff
+    DOGE: DHH66emFVW5oXfKD64AXAowsGZLz1U9ECt
 
 **感谢您的支持!**
 
