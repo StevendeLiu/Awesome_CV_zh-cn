@@ -75,18 +75,6 @@
 % Needed to use icons from font-awesome
 % (https://github.com/posquit0/latex-fontawesome)
 \RequirePackage{fontawesome}
-\RequirePackage[UTF8,scheme=plain,fontset=none]{ctex}
-\setCJKmainfont[BoldFont={FZHei-B01},ItalicFont={FZKai-Z03}]{FZShuSong-Z01}
-\setCJKsansfont[BoldFont={FZHei-B01},ItalicFont={FZHei-B01}]{FZHei-B01}
-\setCJKmonofont[BoldFont={FZHei-B01},ItalicFont={FZHei-B01}]{FZFangSong-Z02}
-\setCJKfamilyfont{zhsong}{FZShuSong-Z01}
-\setCJKfamilyfont{zhhei}{FZHei-B01}
-\setCJKfamilyfont{zhkai}{FZKai-Z03}
-\setCJKfamilyfont{zhfs}{FZFangSong-Z02}
-\newcommand*{\songti}{\CJKfamily{zhsong}}
-\newcommand*{\heiti}{\CJKfamily{zhhei}}
-\newcommand*{\kaishu}{\CJKfamily{zhkai}}
-\newcommand*{\fangsong}{\CJKfamily{zhfs}}
 \RequirePackage[default,opentype]{sourcesanspro}
 % Needed for the photo ID
 \RequirePackage[skins]{tcolorbox}
@@ -169,32 +157,56 @@
 }
 
 
-%-------------------------------------------------------------------------------
+%--------------------------------------------------------------------------
 %                Configuration for fonts
-%-------------------------------------------------------------------------------
+%--------------------------------------------------------------------------
+
+
 % Set the FontAwesome font to be up-to-date.
-%\newfontfamily\FA[Path=\@fontdir]{FontAwesome}
+\setfontfamily\FA[Path=\@fontdir]{FontAwesome}
 % Set font for header (default is Roboto)
 \newfontfamily\headerfont[
   Path=\@fontdir,
-  UprightFont=*,
-  ItalicFont=*,
-  BoldFont=*,
-  BoldItalicFont=*,
-]{FZHTK}
+  UprightFont=*-Regular,
+  ItalicFont=*-Italic,
+  BoldFont=*-Bold,
+  BoldItalicFont=*-BoldItalic,
+]{sarasa-mono-sc-nerd}
 
 \newfontfamily\headerfontlight[
   Path=\@fontdir,
-  UprightFont=*,
-  ItalicFont=*,
-  BoldFont=*,
-  BoldItalicFont=*,
-]{FZKTK}
+  UprightFont=*-Thin,
+  ItalicFont=*-ThinItalic,
+  BoldFont=*-Medium,
+  BoldItalicFont=*-MediumItalic,
+]{sarasa-mono-sc-nerd}
 
-\newcommand*{\footerfont}{\sourcesanspro}
-\newcommand*{\bodyfont}{\sourcesanspro}
-\newcommand*{\bodyfontlight}{\sourcesansprolight}
+% \newcommand*{\footerfont}{\sourcesanspro}
+% \newcommand*{\bodyfont}{\sourcesanspro}
+% \newcommand*{\bodyfontlight}{\sourcesansprolight}
 
+% \usepackage{xeCJK}
+\newfontfamily\bodyfontlight[
+  Path=\@fontdir,
+  UprightFont=*-Regular,
+  ItalicFont=*-Italic,
+  BoldFont=*-Bold,
+  BoldItalicFont=*-BoldItalic,
+]{sarasa-mono-sc-nerd}
+\newfontfamily\bodyfont[
+  Path=\@fontdir,
+  UprightFont=*-Regular,
+  ItalicFont=*-Italic,
+  BoldFont=*-Bold,
+  BoldItalicFont=*-BoldItalic,
+]{sarasa-mono-sc-nerd}
+\newfontfamily\footerfont[
+  Path=\@fontdir,
+  UprightFont=*-Regular,
+  ItalicFont=*-Italic,
+  BoldFont=*-Bold,
+  BoldItalicFont=*-BoldItalic,
+]{sarasa-mono-sc-nerd}
 %-------------------------------------------------------------------------------
 %                Configuration for styles
 %-------------------------------------------------------------------------------
@@ -460,7 +472,7 @@
   \end{minipage}
   \begin{minipage}[c]{\headertextwidth}
     \ifthenelse{\equal{#1}{L}}{\raggedright}{\ifthenelse{\equal{#1}{R}}{\raggedleft}{\centering}}
-    \headerfirstnamestyle{\@firstname}\headerlastnamestyle{{}\acvHeaderNameDelim\@lastname}%
+    \headerfirstnamestyle{\@firstname}\headerfirstnamestyle{{}\acvHeaderNameDelim\@lastname}%
     \\[\acvHeaderAfterNameSkip]%
     \ifthenelse{\isundefined{\@position}}{}{\headerpositionstyle{\@position\\[\acvHeaderAfterPositionSkip]}}%
     \ifthenelse{\isundefined{\@address}}{}{\headeraddressstyle{\@address\\[\acvHeaderAfterAddressSkip]}}%
